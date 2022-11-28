@@ -12,9 +12,14 @@
 5. Execute the Python script
     * `python main.py`
 
+# Resources
 
+## Links
 
-# API Docs
+* [CraigsList Python Package](https://pypi.org/project/python-craigslist/)
+* [CraigsList Documentation](https://bapi.craigslist.org/bulkpost-docs/v1/#/postings/v1-get-bulkpost2Zip2Area)
+
+## API Docs
 
 ### Inside <channel> Element:
 
