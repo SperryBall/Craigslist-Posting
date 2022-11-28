@@ -1,7 +1,8 @@
 # site: tuscaloosa
 # area: tsc
 site: nashville
-area: nsh
+area: apa
+category: rts # real estate services
 filters:
   max_price: 1200
   private_room: True
