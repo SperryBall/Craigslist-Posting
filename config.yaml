@@ -1,0 +1,7 @@
+# site: tuscaloosa
+# area: tsc
+site: nashville
+area: nsh
+filters:
+  max_price: 1200
+  private_room: True
