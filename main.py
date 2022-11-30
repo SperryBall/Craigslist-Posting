@@ -19,7 +19,7 @@ cl_houses = CraigslistHousing(
 url = site=CONFIG['url']
 
 for url in url:
-        webbrowser.open(url)
+        webbrowser.open(url, new=0)
 
 else:
     pass
