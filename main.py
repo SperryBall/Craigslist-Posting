@@ -1,5 +1,7 @@
 from craigslist import CraigslistHousing
 import yaml
+import webbrowser
+import time
 from pprint import pprint
 
 
@@ -13,6 +15,16 @@ cl_houses = CraigslistHousing(
     category=CONFIG['category'],
     filters=CONFIG['filters']
 )
+
+url = site=CONFIG['url']
+
+for url in url:
+        webbrowser.open(url)
+
+else:
+    pass
+
+
 
 current_house_postings = cl_houses.get_results(sort_by='newest', geotagged=True)
 

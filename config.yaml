@@ -3,7 +3,7 @@
 # category: apa | apartments / housing for rent	
 site: nashville
 area: apa
-url: https://tuscaloosa.craigslist.com/
+url: 'https://tuscaloosa.craigslist.com/'
 category: rts # real estate services
 filters:
   max_price: 1200
